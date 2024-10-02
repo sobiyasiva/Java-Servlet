@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-users xmlns="http://tomcat.apache.org/xml"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
+              version="1.0">
+
+  <!-- User with access to the manager GUI (for web management) -->
+  <user username="admin" password="password" roles="manager-gui"/>
+
+  <!-- User with access to the script-based manager (for Maven deployments) -->
+  <user username="deployer" password="password" roles="manager-script"/>
+
+</tomcat-users>
